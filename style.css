@@ -162,15 +162,19 @@ font-weight: bold;
     color: var(--pink);
 }
 
-.info{
+.info {
     background-color: var(--bg);
     color: white;
-    padding-top: 10rem;
+    padding-top: 8rem;
     padding-bottom: 8rem;
 }
 
+.info h2 {
+    margin-bottom: 3rem; /* atau sesuaikan: 3rem, 2.5rem, dll */
+}
+
 .info .alamat{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .info .description {
@@ -187,8 +191,7 @@ font-weight: bold;
 .info .card-header {
     border-bottom: 1px solid #999;
     text-transform: uppercase;
-    letter-spacing: 0.1rem
-    ;
+    letter-spacing: 0.1rem;
 }
 
 .info .card-body {
